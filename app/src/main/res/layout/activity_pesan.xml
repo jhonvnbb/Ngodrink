@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Pesan">
+
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:ems="17"
+            android:hint="Masukan Nama Pemesan"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:ems="17"
+            android:hint="Masukan Nomor Meja"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Daftar Menu"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="315dp"
+                android:layout_height="1250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung" />
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:src="@drawable/onion_rings" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Onion Rings"
+                android:id="@+id/menu_1"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp35.000"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/show_count_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="174dp"
+                android:layout_marginTop="62dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_add1"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="65dp"
+                android:text="Add"
+                android:textSize="10dp"
+                app:backgroundTint="#B14A29" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+
+            <ImageButton
+                android:id="@+id/btn_kurang1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_remove_24" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="45dp"
+                android:text="Hidangan camilan dari irisan tipis bawang. Harmoni unik yang menghasilkan rasa krispi di luar dan lembut di dalam." />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="315dp"
+                android:layout_height="1250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung" />
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:src="@drawable/waffle_ice_berry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Waffle Ice Berry"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="40dp"
+                android:text="Rp30.000"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/show_count_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="174dp"
+                android:layout_marginTop="62dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_add2"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="65dp"
+                android:text="Add"
+                android:textSize="10dp"
+                app:backgroundTint="#B14A29" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+
+            <ImageButton
+                android:id="@+id/btn_kurang2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_remove_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="45dp"
+                android:text="Waffle lembut yang disajikan dengan es krim lezat dan tambahan buah beri segar yang memberikan sentuhan manis dan segar." />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="315dp"
+                android:layout_height="1250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:src="@drawable/potato_wedges" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Potato Wedges"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp25.000"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/show_count_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="174dp"
+                android:layout_marginTop="62dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/btn_add3"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="65dp"
+                android:text="Add"
+                android:textSize="10dp"
+                app:backgroundTint="#B14A29" />
+            <ImageButton
+                android:id="@+id/btn_tambah3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+            <ImageButton
+                android:id="@+id/btn_kurang3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_remove_24" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="45dp"
+                android:text="Irisan kentang tebal dengan  tekstur luar renyah dan dalam empuk. Kombinasi cita rasa gurih, manis, dan sedikit pedas. " />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="315dp"
+                android:layout_height="1250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:src="@drawable/cinnamon_french_toast" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Cinnamon French Toast"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp20.000"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/show_count_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="174dp"
+                android:layout_marginTop="62dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/btn_add4"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="65dp"
+                android:text="Add"
+                android:textSize="10dp"
+                app:backgroundTint="#B14A29" />
+            <ImageButton
+                android:id="@+id/btn_tambah4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+            <ImageButton
+                android:id="@+id/btn_kurang4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+                app:srcCompat="@drawable/ic_baseline_remove_24" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="45dp"
+                android:text="Perpaduan cita rasa Cinnamon French Toast yang disajikan dengan sirup maple dan gula bubuk. " />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="315dp"
+                android:layout_height="1250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:src="@drawable/toasted_coconut_mocha" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Toasted Coconut Mocha"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp18.000"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/show_count_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="174dp"
+                android:layout_marginTop="62dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/btn_add5"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="65dp"
+                android:text="Add"
+                android:textSize="10dp"
+                app:backgroundTint="#B14A29" />
+            <ImageButton
+                android:id="@+id/btn_tambah5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+            <ImageButton
+                android:id="@+id/btn_kurang5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_baseline_remove_24" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="45dp"
+                android:text="Perpaduan sempurna antara rasa cokelat dari mocha, kehangatan kopi, dan kelezatan kelapa panggang yang memberikan nuansa tropis. " />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_pesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="60dp"
+            android:text="PESAN"
+            android:textSize="12dp"
+            app:backgroundTint="#B14A29" />
+    </LinearLayout>
+</ScrollView>
+
+

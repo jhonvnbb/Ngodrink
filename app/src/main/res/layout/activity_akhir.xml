@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/judul"
+            android:text="Cafe Nongki"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesanan sudah diterima"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/terima"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terima kasih sudah menggunakan layanan kami!"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/makasih"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/cek"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Kembali Ke Menu"
+        app:backgroundTint="#B14A29"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
+
