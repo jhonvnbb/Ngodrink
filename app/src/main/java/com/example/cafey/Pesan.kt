@@ -87,7 +87,6 @@ class Pesan : AppCompatActivity() {
             }
         }
         btnAdd1.setOnClickListener {
-            // Create a toast and show it.
             val toast = Toast.makeText(this, "$mCount1 Pesanan Berhasil ditambahkan", Toast.LENGTH_LONG)
             toast.show()
             isBtnAdd1Clicked = true
@@ -171,7 +170,6 @@ class Pesan : AppCompatActivity() {
             }
         }
         btnAdd5.setOnClickListener {
-            // Create a toast and show it.
             val toast = Toast.makeText(this, "$mCount5 Pesanan Berhasil ditambahkan", Toast.LENGTH_LONG)
             toast.show()
             isBtnAdd5Clicked = true

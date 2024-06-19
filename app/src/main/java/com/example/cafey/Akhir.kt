@@ -18,5 +18,6 @@ class Akhir : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
 }
 
