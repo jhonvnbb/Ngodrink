@@ -16,7 +16,6 @@ class Akhir : AppCompatActivity() {
         btnMenu.setOnClickListener {
             val intent = Intent(this, Pesan::class.java)
             startActivity(intent)
-
         }
     }
 }
