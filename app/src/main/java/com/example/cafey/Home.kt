@@ -20,7 +20,6 @@ class Home : AppCompatActivity() {
         btnMenu.setOnClickListener {
             val intent = Intent(this@Home, Pesan::class.java)
 
-            // Start activity
             startActivity(intent)
         }
     }

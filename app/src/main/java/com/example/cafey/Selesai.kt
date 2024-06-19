@@ -13,7 +13,6 @@ import java.text.DateFormat
 import java.util.*
 
 class Selesai : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selesai)
