@@ -20,11 +20,11 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="17dp"
             android:ems="17"
-            android:hint="Masukan Nama Pemesan"
+            android:hint="Your Name"
             android:inputType="text"
             android:minHeight="48dp"
-            android:textAlignment="center"
-            android:textColor="#000" />
+            android:paddingLeft="30dp"
+            android:layout_marginBottom="10dp" />
 
         <EditText
             android:id="@+id/et_nomor"
@@ -33,26 +33,25 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="17dp"
             android:ems="17"
-            android:hint="Masukan Nomor Meja"
+            android:hint="Your Table Number"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:textAlignment="center"
-            android:textColor="#000" />
+            android:paddingLeft="30dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
             android:text="Daftar Menu"
-            android:textColor="#000"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
         <RelativeLayout
             android:layout_width="350dp"
             android:layout_height="200dp"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="20dp">
 
 
             <ImageView
@@ -87,7 +86,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginTop="40dp"
                 android:paddingLeft="145dp"
-                android:text="Rp35.000"
+                android:text="Rp.35.000,00"
                 android:textColor="#000" />
 
             <TextView
@@ -100,6 +99,7 @@
                 android:maxLength="2"
                 android:padding="12dp"
                 android:text="0"
+                android:textColor="#000000"
                 android:textSize="15dp" />
 
             <Button
@@ -110,7 +110,8 @@
                 android:layout_marginTop="65dp"
                 android:text="Add"
                 android:textSize="10dp"
-                app:backgroundTint="#B14A29" />
+                android:textColor="#ffffff"
+                app:backgroundTint="#4455DD" />
 
             <ImageButton
                 android:id="@+id/btn_tambah1"
@@ -137,13 +138,14 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="120dp"
                 android:layout_marginEnd="45dp"
+                android:textColor="#212121"
                 android:text="Hidangan camilan dari irisan tipis bawang. Harmoni unik yang menghasilkan rasa krispi di luar dan lembut di dalam." />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="350dp"
             android:layout_height="200dp"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:layout_width="315dp"
@@ -175,7 +177,7 @@
                 android:layout_alignParentLeft="true"
                 android:paddingLeft="145dp"
                 android:paddingTop="40dp"
-                android:text="Rp30.000"
+                android:text="Rp.30.000,00"
                 android:textColor="#000" />
 
             <TextView
@@ -185,6 +187,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="174dp"
                 android:layout_marginTop="62dp"
+                android:textColor="#000000"
                 android:maxLength="2"
                 android:padding="12dp"
                 android:text="0"
@@ -196,9 +199,10 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="240dp"
                 android:layout_marginTop="65dp"
+                android:textColor="#ffffff"
                 android:text="Add"
                 android:textSize="10dp"
-                app:backgroundTint="#B14A29" />
+                app:backgroundTint="#4455DD" />
 
             <ImageButton
                 android:id="@+id/btn_tambah2"
@@ -224,13 +228,14 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="120dp"
                 android:layout_marginEnd="45dp"
+                android:textColor="#212121"
                 android:text="Waffle lembut yang disajikan dengan es krim lezat dan tambahan buah beri segar yang memberikan sentuhan manis dan segar." />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="350dp"
             android:layout_height="200dp"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:layout_width="315dp"
@@ -269,6 +274,7 @@
                 android:layout_marginTop="62dp"
                 android:maxLength="2"
                 android:padding="12dp"
+                android:textColor="#000000"
                 android:text="0"
                 android:textSize="15dp" />
             <Button
@@ -277,9 +283,10 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="240dp"
                 android:layout_marginTop="65dp"
+                android:textColor="#ffffff"
                 android:text="Add"
                 android:textSize="10dp"
-                app:backgroundTint="#B14A29" />
+                app:backgroundTint="#4455DD" />
             <ImageButton
                 android:id="@+id/btn_tambah3"
                 android:layout_width="40dp"
@@ -302,13 +309,14 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="120dp"
                 android:layout_marginEnd="45dp"
+                android:textColor="#212121"
                 android:text="Irisan kentang tebal dengan  tekstur luar renyah dan dalam empuk. Kombinasi cita rasa gurih, manis, dan sedikit pedas. " />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="350dp"
             android:layout_height="200dp"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:layout_width="315dp"
@@ -336,7 +344,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginTop="40dp"
                 android:paddingLeft="145dp"
-                android:text="Rp20.000"
+                android:text="Rp.20.000,00"
                 android:textColor="#000" />
             <TextView
                 android:id="@+id/show_count_4"
@@ -347,6 +355,7 @@
                 android:layout_marginTop="62dp"
                 android:maxLength="2"
                 android:padding="12dp"
+                android:textColor="#000000"
                 android:text="0"
                 android:textSize="15dp" />
             <Button
@@ -356,8 +365,9 @@
                 android:layout_marginStart="240dp"
                 android:layout_marginTop="65dp"
                 android:text="Add"
+                android:textColor="#ffffff"
                 android:textSize="10dp"
-                app:backgroundTint="#B14A29" />
+                app:backgroundTint="#4455DD" />
             <ImageButton
                 android:id="@+id/btn_tambah4"
                 android:layout_width="40dp"
@@ -379,13 +389,14 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="120dp"
                 android:layout_marginEnd="45dp"
+                android:textColor="#212121"
                 android:text="Perpaduan cita rasa Cinnamon French Toast yang disajikan dengan sirup maple dan gula bubuk. " />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="350dp"
             android:layout_height="200dp"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="20dp">
             <ImageView
                 android:layout_width="315dp"
                 android:layout_height="1250dp"
@@ -412,7 +423,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginTop="40dp"
                 android:paddingLeft="145dp"
-                android:text="Rp18.000"
+                android:text="Rp.18.000,00"
                 android:textColor="#000" />
             <TextView
                 android:id="@+id/show_count_5"
@@ -423,6 +434,7 @@
                 android:layout_marginTop="62dp"
                 android:maxLength="2"
                 android:padding="12dp"
+                android:textColor="#000000"
                 android:text="0"
                 android:textSize="15dp" />
             <Button
@@ -432,8 +444,9 @@
                 android:layout_marginStart="240dp"
                 android:layout_marginTop="65dp"
                 android:text="Add"
+                android:textColor="#ffffff"
                 android:textSize="10dp"
-                app:backgroundTint="#B14A29" />
+                app:backgroundTint="#4455DD" />
             <ImageButton
                 android:id="@+id/btn_tambah5"
                 android:layout_width="40dp"
@@ -456,6 +469,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="120dp"
                 android:layout_marginEnd="45dp"
+                android:textColor="#212121"
                 android:text="Perpaduan sempurna antara rasa cokelat dari mocha, kehangatan kopi, dan kelezatan kelapa panggang yang memberikan nuansa tropis. " />
         </RelativeLayout>
 
@@ -463,11 +477,12 @@
             android:id="@+id/btn_pesan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="60dp"
-            android:text="PESAN"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:text="BOOK NOW"
             android:textSize="12dp"
-            app:backgroundTint="#B14A29" />
+            app:backgroundTint="#ff1616" />
     </LinearLayout>
 </ScrollView>
 
